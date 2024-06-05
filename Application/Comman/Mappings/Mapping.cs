@@ -34,6 +34,7 @@ namespace Application.Comman.Mappings
             CreateMap<CreateuserCommand, User>();
             CreateMap<CreateStudentCommand,Student>();
             CreateMap<CreateStaffCommand,Staff>();
+           // CreateMap<CreateStaffCommand,Staff>();
             ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
